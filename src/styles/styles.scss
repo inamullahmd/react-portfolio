@@ -1,0 +1,105 @@
+$font-stack:    Montserrat;
+$primary-color: #333;
+
+@mixin font-weight($weight) {
+  $weights: (
+    thin: 100,
+    extra-light: 200,
+    light: 300,
+    regular: 400,
+    medium: 500,
+    semi-bold: 600,
+    bold: 700,
+    extra-bold: 800,
+    ultra-bold: 900
+  );
+  
+  $output: $weight;
+  @if map-has-key($weights, $weight) {
+    $output: map-get($weights, $weight);
+  }
+  
+  font-weight: $output;
+}
+
+body{
+  font-family: $font-stack;
+  @include font-weight(regular);
+}
+
+
+.fw-r{
+  @include font-weight(regular);
+}
+
+.fw-md{
+  @include font-weight(medium);
+}
+
+.fw-sb{
+  @include font-weight(semi-bold);
+}
+
+.fw-b{
+  @include font-weight(bold);
+}
+
+.fw-eb{
+  @include font-weight(extra-bold);
+}
+
+.fw-ub{
+  @include font-weight(ultra-bold);
+}
+
+.fs-12{
+  font-size: 12px !important;
+}
+
+.fs-16{
+  font-size: 16px !important;
+}
+
+.fs-20{
+  font-size: 20px !important;
+}
+
+.fs-24{
+  font-size: 24px !important;
+}
+
+.fs-30{
+  font-size: 30px !important;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0) !important; //red
+}
+
+.navbar,#featured { box-shadow: none !important; }
+
+.large-text{
+  font-size: calc(3vw + 4vh + 2vmin);
+}
+
+.semi-large-text{
+  font-size: calc(2vw + 2vh + 1vmin);
+}
+
+.btn{
+  text-transform: none !important;
+}
+
+.upper{
+  z-index: 100 !important;
+}
+
+.mail-link{
+  font-size:20px;
+  color:black;
+  text-decoration: underline;
+}
+
+.social{
+  font-size: 30px;
+}

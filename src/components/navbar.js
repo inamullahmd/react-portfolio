@@ -16,7 +16,7 @@ const Menubar = () => {
             <Nav.Link onClick={() => scrollTo("#about")} className="fw-md">About</Nav.Link>
             <Nav.Link onClick={() => scrollTo("#work")} className="fw-md">Work</Nav.Link>
             <Nav.Link onClick={() => scrollTo("#skills")} className="fw-md">Skills</Nav.Link>
-            <Nav.Link className="fw-md">Contact</Nav.Link>
+            <Nav.Link onClick={() => scrollTo("#contact")} className="fw-md">Contact</Nav.Link>
             </Nav>
         </Navbar.Collapse>
         </Navbar>

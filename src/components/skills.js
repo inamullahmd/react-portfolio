@@ -64,7 +64,7 @@ const Skills = () => {
                 </Row>
                 <Row>
                     <Col lg>
-                        <Skill title="mevn stack" value="44"></Skill>
+                        <Skill title="mevn stack" value="55"></Skill>
                     </Col>
                     <Col lg>
                         <Skill title="sql/ nosql" value="90"></Skill>

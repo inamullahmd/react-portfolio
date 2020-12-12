@@ -6,7 +6,12 @@
 
 module.exports = {
   siteMetadata: {
-    title: `I like Google fonts`
+    title: "React Portfolio Template",
+    author:"Mohammad Inamullah",
+    description:
+      "A simple portfolio template designed in React.",
+    url: "https://mdi-react-portfolio.netlify.app", // No trailing slash allowed!
+    image: "./src/images/portfolio.png", // Path to your image you placed in the 'static' folder
   },
   plugins: [
     {
@@ -18,7 +23,7 @@ module.exports = {
         ],
         display: 'swap'
       }
-    },
+    },`gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-sass`,
     },

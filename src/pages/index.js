@@ -10,7 +10,7 @@ import SEO from '../components/seo';
 export default function Home() {
   return(
     <div>
-      <SEO></SEO>
+      <SEO  title="Portfolio" ></SEO>
       <Menubar></Menubar>
       <Featured></Featured>
       <About></About>

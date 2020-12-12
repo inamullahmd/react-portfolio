@@ -10,7 +10,6 @@ If you created something awesome and want to contribute then feel free to open a
 ## Features
 - Responsive
 - Modern Design
-- Clean Animations
 - Easy to modify
 
 

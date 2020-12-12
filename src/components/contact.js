@@ -11,7 +11,11 @@ const Contact = () => {
                     mohammadinamullahmdi@gmail.com
                 </a>
                 <div className="social p-4">
-                    <FaGithub/> <FaInstagram/> <FaLinkedin/> <FaTwitter/> <FaFacebook/>
+                    <a href="https://github.com/inamullahmdi/" className="p-2"><FaGithub/></a>
+                    <a href="#" className="p-2"><FaInstagram/></a>
+                    <a href="#" className="p-2"><FaTwitter/> </a>
+                    <a href="#" className="p-2"><FaLinkedin/></a>
+                    <a href="#" className="p-2"><FaFacebook/></a>                       
                 </div>
                 <h5 class="h5-responsive mb-5">Made with 💝 by <a class="fw-b" href="https://github.com/inamullahmdi">Mohammad Inamullah</a> </h5>
             </div>
